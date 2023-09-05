@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import styles from '../page.module.css'
 import Link from "next/link";
+import Container from "@/components/Container";
 
-export default function Test() {
+export default async function Test() {
 	return (
 		<main className={styles.main}>
 			<div className={styles.description}>
@@ -21,6 +22,13 @@ export default function Test() {
 					priority
 				/>
 			</div>
+
+			<Container>
+				<Container.Header>
+					HEADER
+				</Container.Header>
+				CONTAINER
+			</Container>
 
 			<div className={styles.grid}>
 				<Link href={`/`} className={styles.card}>

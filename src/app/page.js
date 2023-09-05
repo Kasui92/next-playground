@@ -42,8 +42,8 @@ export default function Home() {
 
       <div className={styles.grid}>
         <Link href={`test`} className={styles.card}>
-            <h3>Test &rarr;</h3>
-            <p>Test NProgress by moving into another page</p>
+            <h3>Test Components &rarr;</h3>
+            <p>Test Component & Object.assign</p>
         </Link>
         <Link href={`test-router-next`} className={styles.card}>
           <h3>Test Router Next.js &rarr;</h3>
